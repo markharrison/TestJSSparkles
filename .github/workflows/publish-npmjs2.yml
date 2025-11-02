@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: format GITTAG
         run: |
-          VERSION_NUM="1.$(date "+%Y%m%d").${{github.run_number }}"
+          VERSION_NUM="2.$(date "+%Y%m%d").${{github.run_number }}"
           echo "GITTAG=v$VERSION_NUM" >> $GITHUB_ENV
           echo "VERSION=$VERSION_NUM" >> $GITHUB_ENV
 
