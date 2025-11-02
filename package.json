@@ -3,7 +3,12 @@
   "version": "1.20251102.12",
   "description": "A reusable sparkle effect system for canvas animations.",
   "main": "sparkles.js",
+  "exports": {
+    ".": "./sparkles.js",
+    "./sparkles": "./sparkles.js"
+  },
   "files": [
+    "sparkles.js",
     "README.md",
     "LICENSE"
   ],
