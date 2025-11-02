@@ -1,0 +1,8 @@
+@markharrison:registry=https://registry.npmjs.org/
+package-lock=false
+
+npm install @markharrison/markjssparkles@latest --save
+
+Remove-Item -Recurse -Force node_modules
+npm OUTDATED
+npm update --save
