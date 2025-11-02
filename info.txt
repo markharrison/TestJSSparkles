@@ -8,3 +8,7 @@ npm OUTDATED
 npm update --save
 
 npm unpublish @markharrison/markjssparkles@1.20251102.8
+
+Develop & test locally: npm install C:\Dev\MarkJSSparkles
+When perfect: Trigger your GitHub Actions workflow to publish to NPM
+Production apps: npm install @markharrison/markjssparkles
