@@ -1,4 +1,4 @@
-name: Manual Publish to GitHub Packages
+name: Manual Publish to GitHub Packages copy
 
 on:
   workflow_dispatch:

@@ -1,6 +1,6 @@
 {
-  "name": "@markharrison/sparkles.js",
-  "version": "0.6.0",
+  "name": "@markharrison/MarkJSSparkles",
+  "version": "20251102.9.0",
   "description": "A reusable sparkle effect system for canvas animations.",
   "main": "sparkles.js",
   "files": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markharrison/MarkJSSparks.git"
+    "url": "git+https://github.com/markharrison/MarkJSSparkles.git"
   },
   "author": "Mark Harrison",
   "license": "MIT",
