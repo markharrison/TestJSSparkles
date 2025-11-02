@@ -45,9 +45,6 @@ jobs:
           node-version: "20"
           registry-url: "https://registry.npmjs.org/"
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Configure NPM for publishing
         run: |
           cat << EOF > $HOME/.npmrc
